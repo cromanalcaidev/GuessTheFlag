@@ -8,12 +8,31 @@
 import SwiftUI
 
 struct Theory: View {
-
-    var body: some View {
-        Text("Hello")
-    }
-
     
+    //5th batch: alerts
+    
+    //Es importante tener en cuenta cuándo vamos a mostrar una alerta en SwiftUI. No le decimos a la alerta "aparece YA", sino que creamos la vistas, creamos la alerta y después determinamos en qué condiciones la alerta se mostrará. Esa es la diferencia entre programación imperativa y programación declarativa.
+    
+    // Esto significa que no asignamos la alerta a una variable. A cambio, creamos un estado que determina si se mostrará la alerta (renderización condicional). En cuanto ese estado sea "true", la alerta se mostrará
+    
+    @State private var showingAlert = false
+    
+    var body: some View {
+        Button("Show alert") {
+            showingAlert = true
+        }
+//        .alert("Important message", isPresented: $showingAlert) {
+//            Button("Ok") { }
+//        }
+        //El botón aquí no necesita código pq cualquier botón dentro de una alerta la hace desaparecer automáticamente. Se pueden añadir más botones si queremos.
+        .alert("Important message", isPresented: $showingAlert) {
+            Button("Delete", role: .destructive) { }
+            Button("Cancel", role: .cancel) { }
+        } message: {
+            Text("Please read this")
+            //De esta manera le añadimos un poco más de texto a la alerta
+        }
+    }
 }
 
 #Preview {
