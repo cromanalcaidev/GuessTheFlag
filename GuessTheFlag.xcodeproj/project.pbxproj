@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C187CB62BA5ED4500A3892B /* AltContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C187CB52BA5ED4500A3892B /* AltContentView.swift */; };
 		7C35E2D42B9D16F2006D47F3 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35E2D32B9D16F2006D47F3 /* GuessTheFlagApp.swift */; };
 		7C35E2D62B9D16F2006D47F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35E2D52B9D16F2006D47F3 /* ContentView.swift */; };
 		7C35E2D82B9D16F3006D47F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C35E2D72B9D16F3006D47F3 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C187CB52BA5ED4500A3892B /* AltContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltContentView.swift; sourceTree = "<group>"; };
 		7C35E2D02B9D16F2006D47F3 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C35E2D32B9D16F2006D47F3 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
 		7C35E2D52B9D16F2006D47F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				7C35E2D72B9D16F3006D47F3 /* Assets.xcassets */,
 				7C35E2D92B9D16F3006D47F3 /* Preview Content */,
 				7C35E2E12B9D170D006D47F3 /* Theory.swift */,
+				7C187CB52BA5ED4500A3892B /* AltContentView.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				7C35E2D62B9D16F2006D47F3 /* ContentView.swift in Sources */,
 				7C35E2D42B9D16F2006D47F3 /* GuessTheFlagApp.swift in Sources */,
+				7C187CB62BA5ED4500A3892B /* AltContentView.swift in Sources */,
 				7C35E2E22B9D170D006D47F3 /* Theory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

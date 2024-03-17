@@ -136,7 +136,7 @@ struct Theory: View {
 //                       startPoint: .top,
 //                       endPoint: .bottom)
     
-    // También podemos marcar stops para determinar hasta qué punto un color estará y cuándo parará (con por centajes)
+    // También podemos marcar stops para determinar hasta qué punto un color estará y cuándo parará (con porcentajes)
 //        LinearGradient(stops: [
 //            Gradient.Stop(color: .white, location: 0.45),
 //            Gradient.Stop(color: .black, location: 0.55)
@@ -207,7 +207,7 @@ struct Theory: View {
         
         //También podemos definir el RGB de un color así:
 //            Color(red: 1, green: 0.8, blue: 0)
-        //Por defecto, Color no llena la pantalla, siempre deja un pequeño espacio blanco arriba y otro abajo (el resto, lo qeu sí llena el color se llama "Safe Area")
+        //Por defecto, Color no llena la pantalla, siempre deja un pequeño espacio blanco arriba y otro abajo (el resto, lo que sí llena el color se llama "Safe Area")
 //                .ignoresSafeArea()
         //Este modificador se lo pasa por el forro y permite llenar TODA la pantalla
         
